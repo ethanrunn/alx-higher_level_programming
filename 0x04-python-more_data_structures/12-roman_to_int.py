@@ -18,5 +18,5 @@ def roman_to_int(roman_string):
             sum_int += roman_map.get(s)
         else:
             sum_int += (roman_map.get(s) - 2 * roman_map.get(prev))
-            prev = s
+        prev = s
     return sum_int
