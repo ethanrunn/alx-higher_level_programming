@@ -7,5 +7,5 @@ def safe_print_list_integers(my_list=[], x=0):
             real_num += 1
         except (ValueError, TypeError):
             continue
-        print()
-        return real_num
+    print()
+    return real_num
